@@ -1,0 +1,19 @@
+{
+  "name": "@saghen/discord",
+  "version": "0.0.1-rc1",
+  "description": "Generated Typescript functions and types for the Discord API",
+  "main": "build/index.js",
+  "scripts": {
+    "generate": "node generate.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "Liam Dyer",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.9.5",
+    "playwright": "^1.9.2",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  }
+}

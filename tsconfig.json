@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ES2020", "ESNext"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es2018",
+    "module": "CommonJS",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "build"
+  },
+  "include": ["src/**/*.ts"]
+}
